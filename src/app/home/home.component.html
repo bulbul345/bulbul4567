@@ -1,4 +1,5 @@
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div class="container-fluid"> 
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="../../assets/bannerr.webp" class="d-block" style="padding: 0;" width="100%" height="300px" alt="...">
@@ -19,3 +20,22 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+</div>
+
+
+
+
+
+<div class="row mt-5">
+    <div class="col-md-4 mb-3" *ngFor="let movie of movies">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../../assets/{{movie.movieImage}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{movie.movieName}}</h5>
+                
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </div>
+</div>

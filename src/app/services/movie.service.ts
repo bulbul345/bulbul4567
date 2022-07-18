@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class MovieService {
-  private _movieUrl = "https://localhost:44371/api/movie";
+  private _movieUrl = "https://localhost:44389/api/movie";
   constructor(private http: HttpClient,private _router:Router) { }
 
   
