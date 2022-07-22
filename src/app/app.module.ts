@@ -7,19 +7,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { AccountComponent } from './account/account.component';
+
 import { HomeComponent } from './home/home.component';
 import { AuthService } from './services/auth.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AddmovieComponent } from './addmovie/addmovie.component';
+import { AddressComponent } from './address/address.component';
+import { PaymentComponent } from './payment/payment.component';
+import { FinalconfirmationComponent } from './finalconfirmation/finalconfirmation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    AccountComponent,
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    AddmovieComponent,
+    AddressComponent,
+    PaymentComponent,
+    FinalconfirmationComponent
   ],
   imports: [
     BrowserModule,

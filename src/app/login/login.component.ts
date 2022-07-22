@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
       if (res.isAdmin)
         this._router.navigate(['/dashboard']);
       else
-        this._router.navigate(['/account']);
+        this._router.navigate(['/payment']);
     }, err => console.log(err));
   }
 
