@@ -1,7 +1,9 @@
 export class UserData{
     FirstName:string='';
     LastName:string='';
-    userName:string='';
-    password:string='';
-    MobileNumber:String='';
+    Email:string='';
+    Password:string='';
+    LoginId:string='';
+    ConfirmPassword:string='';
+    ContactNumber:String='';
 }

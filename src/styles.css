@@ -7,6 +7,8 @@ border-radius: 5px;
 }
 .login_style{
     box-shadow: 5px 5px 20px black;
+    padding: 30px;
+    border-radius: 10px !important;
 }
 .sign{
     padding: 5px 35px;

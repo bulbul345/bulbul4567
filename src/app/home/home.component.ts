@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Movie } from '../models/Movie';
 import { MovieService } from '../services/movie.service';
-import { HttpClient,HttpEvent } from '@angular/common/http';
+import { HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     let filetoUpload=<File>files[0];
     const formData=new FormData();
     formData.append('file',filetoUpload,filetoUpload.name)
-    this.httpc.post("https://localhost:44374/api/upload",formData).subscribe((res: any)=>console.log(res),(res: any)=>console.log(res));
+    this.httpc.post("https://localhost:44374/api/upload",formData).subscribe((res:any)=>console.log(res),(res:any)=>console.log(res));
   }
 
 }
