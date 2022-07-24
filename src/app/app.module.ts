@@ -10,7 +10,7 @@ import { RegisterComponent } from './register/register.component';
 
 import { HomeComponent } from './home/home.component';
 import { AuthService } from './services/auth.service';
-import { DashboardComponent } from './dashboard/dashboard.component';
+
 import { AddmovieComponent } from './addmovie/addmovie.component';
 import { AddressComponent } from './address/address.component';
 import { PaymentComponent } from './payment/payment.component';
@@ -22,7 +22,7 @@ import { FinalconfirmationComponent } from './finalconfirmation/finalconfirmatio
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    DashboardComponent,
+    
     AddmovieComponent,
     AddressComponent,
     PaymentComponent,

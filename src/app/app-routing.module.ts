@@ -5,7 +5,7 @@ import { AddressComponent } from './address/address.component';
 import { FinalconfirmationComponent } from './finalconfirmation/finalconfirmation.component';
 
 
-import { DashboardComponent } from './dashboard/dashboard.component';
+
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
@@ -29,10 +29,7 @@ const routes: Routes = [
     component: RegisterComponent
   },
   
-  {
-    path: 'dashboard',
-    component: DashboardComponent
-  },
+  
   {
     path: 'addmovie',
     component: AddmovieComponent
